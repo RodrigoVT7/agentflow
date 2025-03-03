@@ -1,0 +1,4 @@
+{"error":{},"level":"error","message":"Error al enviar mensaje a WhatsApp después de varios intentos","phoneNumberId":"123456789","recipient":"52234567890","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:39:28.206"}
+{"error":{},"level":"error","message":"Error al enviar mensaje a WhatsApp después de varios intentos","phoneNumberId":"123456789","recipient":"52234567890","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:41:15.996"}
+{"error":{},"level":"error","message":"Error al enviar mensaje a WhatsApp después de varios intentos","phoneNumberId":"123456789","recipient":"52234567890","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:44:07.440"}
+{"error":{},"level":"error","message":"Error al enviar mensaje a WhatsApp después de varios intentos","phoneNumberId":"123456789","recipient":"522411617586","service":"whatsapp-bot-escalation","timestamp":"2025-03-03 00:06:32.552"}

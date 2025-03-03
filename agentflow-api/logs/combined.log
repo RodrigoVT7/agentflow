@@ -1,0 +1,139 @@
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:31:12.954"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:31:34.331"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:31:34.335"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:31:34.385"}
+{"ip":"::1","level":"info","message":"Incoming GET /webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","method":"GET","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:33:20.817","url":"/webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.22621.4391","userId":"unauthenticated"}
+{"duration":5,"level":"info","message":"Response 200 GET /webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code - 5ms","method":"GET","service":"whatsapp-bot-escalation","statusCode":200,"timestamp":"2025-03-02 22:33:20.822","url":"/webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","userId":"unauthenticated"}
+{"ip":"::1","level":"info","message":"Incoming GET /webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","method":"GET","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:33:58.288","url":"/webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36","userId":"unauthenticated"}
+{"duration":2,"level":"info","message":"Response 200 GET /webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code - 2ms","method":"GET","service":"whatsapp-bot-escalation","statusCode":200,"timestamp":"2025-03-02 22:33:58.290","url":"/webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","userId":"unauthenticated"}
+{"ip":"::1","level":"info","message":"Incoming GET /favicon.ico","method":"GET","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:33:58.478","url":"/favicon.ico","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36","userId":"unauthenticated"}
+{"duration":3,"level":"warn","message":"Response 404 GET /favicon.ico - 3ms","method":"GET","service":"whatsapp-bot-escalation","statusCode":404,"timestamp":"2025-03-02 22:33:58.481","url":"/favicon.ico","userId":"unauthenticated"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:36:34.092"}
+{"ip":"::1","level":"info","message":"Incoming GET /agent","method":"GET","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:38:13.615","url":"/agent","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36","userId":"unauthenticated"}
+{"duration":3,"level":"warn","message":"Response 404 GET /agent - 3ms","method":"GET","service":"whatsapp-bot-escalation","statusCode":404,"timestamp":"2025-03-02 22:38:13.617","url":"/agent","userId":"unauthenticated"}
+{"ip":"::1","level":"info","message":"Incoming GET /webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","method":"GET","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:39:08.595","url":"/webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":2,"level":"info","message":"Response 200 GET /webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code - 2ms","method":"GET","service":"whatsapp-bot-escalation","statusCode":200,"timestamp":"2025-03-02 22:39:08.597","url":"/webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","userId":"unauthenticated"}
+{"ip":"::1","level":"info","message":"Incoming POST /webhook","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:39:13.404","url":"/webhook","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":3485,"level":"info","message":"Response 200 POST /webhook - 3485ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":200,"timestamp":"2025-03-02 22:39:16.889","url":"/webhook","userId":"unauthenticated"}
+{"error":{},"level":"warn","message":"Reintentando envío de mensaje (1/3)","phoneNumberId":"123456789","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:39:24.783"}
+{"error":{},"level":"warn","message":"Reintentando envío de mensaje (2/3)","phoneNumberId":"123456789","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:39:25.898"}
+{"error":{},"level":"error","message":"Error al enviar mensaje a WhatsApp después de varios intentos","phoneNumberId":"123456789","recipient":"52234567890","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:39:28.206"}
+{"ip":"::1","level":"info","message":"Incoming POST /auth/register","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:39:35.127","url":"/auth/register","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":1,"level":"warn","message":"Response 404 POST /auth/register - 1ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":404,"timestamp":"2025-03-02 22:39:35.128","url":"/auth/register","userId":"unauthenticated"}
+{"ip":"::1","level":"info","message":"Incoming POST /auth/login","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:39:41.470","url":"/auth/login","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":2,"level":"warn","message":"Response 401 POST /auth/login - 2ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":401,"timestamp":"2025-03-02 22:39:41.472","url":"/auth/login","userId":"unauthenticated"}
+{"ip":"::1","level":"info","message":"Incoming POST /auth/register","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:39:45.946","url":"/auth/register","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":4,"level":"warn","message":"Response 404 POST /auth/register - 4ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":404,"timestamp":"2025-03-02 22:39:45.950","url":"/auth/register","userId":"unauthenticated"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:40:47.324"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:40:47.328"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:40:47.379"}
+{"ip":"::1","level":"info","message":"Incoming GET /webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","method":"GET","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:40:55.589","url":"/webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":5,"level":"info","message":"Response 200 GET /webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code - 5ms","method":"GET","service":"whatsapp-bot-escalation","statusCode":200,"timestamp":"2025-03-02 22:40:55.594","url":"/webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","userId":"unauthenticated"}
+{"ip":"::1","level":"info","message":"Incoming POST /webhook","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:41:03.440","url":"/webhook","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":3040,"level":"info","message":"Response 200 POST /webhook - 3040ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":200,"timestamp":"2025-03-02 22:41:06.480","url":"/webhook","userId":"unauthenticated"}
+{"ip":"::1","level":"info","message":"Incoming POST /auth/register","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:41:12.136","url":"/auth/register","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":3,"level":"warn","message":"Response 404 POST /auth/register - 3ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":404,"timestamp":"2025-03-02 22:41:12.139","url":"/auth/register","userId":"unauthenticated"}
+{"error":{},"level":"warn","message":"Reintentando envío de mensaje (1/3)","phoneNumberId":"123456789","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:41:12.739"}
+{"error":{},"level":"warn","message":"Reintentando envío de mensaje (2/3)","phoneNumberId":"123456789","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:41:13.867"}
+{"error":{},"level":"error","message":"Error al enviar mensaje a WhatsApp después de varios intentos","phoneNumberId":"123456789","recipient":"52234567890","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:41:15.996"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:43:04.538"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:43:04.543"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:43:04.603"}
+{"ip":"::1","level":"info","message":"Incoming POST /auth/register","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:43:13.128","url":"/auth/register","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":4,"level":"warn","message":"Response 404 POST /auth/register - 4ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":404,"timestamp":"2025-03-02 22:43:13.132","url":"/auth/register","userId":"unauthenticated"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:43:47.631"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:43:47.636"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:43:47.689"}
+{"ip":"::1","level":"info","message":"Incoming GET /webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","method":"GET","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:43:54.060","url":"/webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":18,"level":"info","message":"Response 200 GET /webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code - 18ms","method":"GET","service":"whatsapp-bot-escalation","statusCode":200,"timestamp":"2025-03-02 22:43:54.077","url":"/webhook?hub.mode=subscribe&hub.verify_token=developer-seed&hub.challenge=challenge_code","userId":"unauthenticated"}
+{"ip":"::1","level":"info","message":"Incoming POST /webhook","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:43:55.924","url":"/webhook","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":2708,"level":"info","message":"Response 200 POST /webhook - 2708ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":200,"timestamp":"2025-03-02 22:43:58.632","url":"/webhook","userId":"unauthenticated"}
+{"ip":"::1","level":"info","message":"Incoming POST /auth/register","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:44:01.061","url":"/auth/register","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":2,"level":"warn","message":"Response 404 POST /auth/register - 2ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":404,"timestamp":"2025-03-02 22:44:01.063","url":"/auth/register","userId":"unauthenticated"}
+{"error":{},"level":"warn","message":"Reintentando envío de mensaje (1/3)","phoneNumberId":"123456789","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:44:04.212"}
+{"error":{},"level":"warn","message":"Reintentando envío de mensaje (2/3)","phoneNumberId":"123456789","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:44:05.334"}
+{"error":{},"level":"error","message":"Error al enviar mensaje a WhatsApp después de varios intentos","phoneNumberId":"123456789","recipient":"52234567890","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:44:07.440"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:44:37.425"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:44:37.429"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:44:37.480"}
+{"ip":"::1","level":"info","message":"Incoming POST /auth/register","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:44:42.632","url":"/auth/register","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":9,"level":"warn","message":"Response 404 POST /auth/register - 9ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":404,"timestamp":"2025-03-02 22:44:42.641","url":"/auth/register","userId":"unauthenticated"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:45:36.314"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:45:36.319"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:45:36.374"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:45:48.614"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:45:48.619"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:45:48.670"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:46:24.733"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:46:24.738"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:46:24.792"}
+{"ip":"::1","level":"info","message":"Incoming POST /auth/register","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:47:08.580","url":"/auth/register","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":5,"level":"warn","message":"Response 404 POST /auth/register - 5ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":404,"timestamp":"2025-03-02 22:47:08.585","url":"/auth/register","userId":"unauthenticated"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:47:19.292"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:47:19.300"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:47:19.351"}
+{"ip":"::1","level":"info","message":"Incoming POST /auth/register","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:47:22.443","url":"/auth/register","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":4,"level":"warn","message":"Response 404 POST /auth/register - 4ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":404,"timestamp":"2025-03-02 22:47:22.447","url":"/auth/register","userId":"unauthenticated"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:48:31.766"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:48:31.781"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:48:31.833"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:49:04.780"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:49:04.784"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:49:04.840"}
+{"ip":"::1","level":"info","message":"Incoming POST /auth/register","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:49:06.561","url":"/auth/register","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":4,"level":"warn","message":"Response 404 POST /auth/register - 4ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":404,"timestamp":"2025-03-02 22:49:06.565","url":"/auth/register","userId":"unauthenticated"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:50:06.211"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:50:06.214"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:50:06.264"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:50:36.708"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:50:36.712"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:50:36.769"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:50:47.043"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:50:47.048"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:50:47.104"}
+{"ip":"::1","level":"info","message":"Incoming POST /auth/register","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:50:49.076","url":"/auth/register","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":5,"level":"warn","message":"Response 404 POST /auth/register - 5ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":404,"timestamp":"2025-03-02 22:50:49.081","url":"/auth/register","userId":"unauthenticated"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:51:08.917"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:51:08.921"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:51:08.971"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:51:16.896"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:51:16.900"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:51:16.951"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:51:29.766"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:51:29.769"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:51:29.819"}
+{"ip":"::1","level":"info","message":"Incoming POST /auth/register","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:51:44.398","url":"/auth/register","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"level":"info","message":"Nuevo agente registrado: agente@ejemplo.com","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:51:44.450"}
+{"duration":57,"level":"info","message":"Response 201 POST /auth/register - 57ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":201,"timestamp":"2025-03-02 22:51:44.455","url":"/auth/register","userId":"unauthenticated"}
+{"level":"info","message":"Servidor WebSocket inicializado","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:52:00.917"}
+{"level":"info","message":"Cargadas 0 conversaciones en cola desde la base de datos","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:52:00.923"}
+{"level":"info","message":"Agentes de prueba creados","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:52:00.978"}
+{"ip":"::1","level":"info","message":"Incoming POST /auth/login","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:52:12.826","url":"/auth/login","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":5,"level":"warn","message":"Response 401 POST /auth/login - 5ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":401,"timestamp":"2025-03-02 22:52:12.830","url":"/auth/login","userId":"unauthenticated"}
+{"ip":"::1","level":"info","message":"Incoming POST /auth/login","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:54:00.197","url":"/auth/login","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"level":"info","message":"Inicio de sesión exitoso para agent@test.com","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:54:00.255"}
+{"duration":60,"level":"info","message":"Response 200 POST /auth/login - 60ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":200,"timestamp":"2025-03-02 22:54:00.257","url":"/auth/login","userId":"unauthenticated"}
+{"ip":"::1","level":"info","message":"Incoming GET /agent/queue","method":"GET","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:54:16.052","url":"/agent/queue","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":3,"level":"info","message":"Response 200 GET /agent/queue - 3ms","method":"GET","service":"whatsapp-bot-escalation","statusCode":200,"timestamp":"2025-03-02 22:54:16.056","url":"/agent/queue","userId":"agent_test_1"}
+{"ip":"::1","level":"info","message":"Incoming POST /agent/send","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:54:36.844","url":"/agent/send","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":2,"level":"warn","message":"Response 404 POST /agent/send - 2ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":404,"timestamp":"2025-03-02 22:54:36.847","url":"/agent/send","userId":"agent_test_1"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 22:57:00.828"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 23:02:00.843"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 23:07:00.850"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 23:12:00.859"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 23:17:00.863"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 23:22:00.871"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 23:27:00.880"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 23:32:00.891"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 23:37:00.912"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 23:42:00.909"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 23:47:00.916"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 23:52:00.914"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-02 23:57:00.922"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-03 00:02:00.930"}
+{"ip":"::1","level":"info","message":"Incoming POST /webhook","method":"POST","service":"whatsapp-bot-escalation","timestamp":"2025-03-03 00:06:20.795","url":"/webhook","userAgent":"PostmanRuntime/7.43.0","userId":"unauthenticated"}
+{"duration":1552,"level":"info","message":"Response 200 POST /webhook - 1552ms","method":"POST","service":"whatsapp-bot-escalation","statusCode":200,"timestamp":"2025-03-03 00:06:22.345","url":"/webhook","userId":"unauthenticated"}
+{"error":{},"level":"warn","message":"Reintentando envío de mensaje (1/3)","phoneNumberId":"123456789","service":"whatsapp-bot-escalation","timestamp":"2025-03-03 00:06:29.339"}
+{"error":{},"level":"warn","message":"Reintentando envío de mensaje (2/3)","phoneNumberId":"123456789","service":"whatsapp-bot-escalation","timestamp":"2025-03-03 00:06:30.451"}
+{"error":{},"level":"error","message":"Error al enviar mensaje a WhatsApp después de varios intentos","phoneNumberId":"123456789","recipient":"522411617586","service":"whatsapp-bot-escalation","timestamp":"2025-03-03 00:06:32.552"}
+{"level":"info","message":"Estado de cola guardado en base de datos (0 conversaciones)","service":"whatsapp-bot-escalation","timestamp":"2025-03-03 00:07:00.933"}
